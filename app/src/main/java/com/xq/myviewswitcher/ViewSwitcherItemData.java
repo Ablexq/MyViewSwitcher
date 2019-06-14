@@ -1,0 +1,27 @@
+package com.xq.myviewswitcher;
+
+public class ViewSwitcherItemData {
+    private String name; // 应用程序名称
+    private int icon;  // 应用程序图标
+
+    public ViewSwitcherItemData(String name, int icon) {
+        this.name = name;
+        this.icon = icon;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getIcon() {
+        return icon;
+    }
+
+    public void setIcon(int icon) {
+        this.icon = icon;
+    }
+}
